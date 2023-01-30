@@ -11,5 +11,5 @@ public class SampleClass {
 
 		System.out.println("This MEthod Created By Rohan");
 	}
-
+    
 }

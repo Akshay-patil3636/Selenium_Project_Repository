@@ -1,12 +1,18 @@
 package mergeconflict;
 
 public class SampleClass2 {
+
+	public static void main(String[] args) {
+		
+		SampleClass2 a=new SampleClass2();
+		a.sample2method();
 	
-	public static void main(String [] args) {
-		
-		
-		System.out.println("Sample Method Created By Rohan");
-		
 	}
+public void sample2method()
+{
+	System.out.println("first changes made by Akshay");
+	
+	System.out.println("Added By Rohan");
+}
 
 }
